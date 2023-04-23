@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Face Recognition</title>
+  </head>
+  <body>
+    <h1>Face Recognition</h1>
+    <form action="/start_capture" method="post">
+      <label for="user_id">Enter user id:</label>
+      <input type="text" id="user_id" name="user_id"><br><br>
+      <button type="submit">Start Capture</button>
+    </form>
+    {% comment %} <button onclick="stopStream()">Stop Stream</button>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script>
+		function stopStream() {
+			$.get("/stop_stream");
+		}
+	</script> {% endcomment %}
+    {% comment %} <a href = "index.html">html page</a> {% endcomment %}
+  </body>
+</html>
