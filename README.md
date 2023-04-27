@@ -45,6 +45,18 @@ user sitting in front of the camera.
 used to detect the face orientation.
 Click on the http link provided to open the user interface
 
+Algorithm:-
+1.First we will take the user id from the user .
+2.The camera will pop up and will take pictures for the dataset.
+3.It will be used for training our CNN model.
+4.Then the camera will again pop-up and this time it will identify the
+user.
+5.In the duration of the exam it will monitor the user to ensure
+proctoring.
+6.If the user is looking somewhere else or is trying to cheat during an
+exam,it will give notification saying looking
+left,right,forward,backward.
+
 Steps to follow:-
 
 1.Home page of the Web App
