@@ -43,3 +43,26 @@ user sitting in front of the camera.
 
 6.Real time face orientation recognition: Media pipe library is
 used to detect the face orientation.
+Click on the http link provided to open the user interface
+
+Steps to follow:-
+
+1.Home page of the Web App
+
+
+2.Enter the user id and click on start capture to collect images of Face
+
+
+
+
+3.Face detection and saving the images to servers system
+
+4.Images saved in Servers system
+
+
+
+5.Face recognition when the exam starts
+
+
+
+6.Head position Estimation to detect cheating
