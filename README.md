@@ -78,3 +78,18 @@ Steps to follow:-
 
 
 6.Head position Estimation to detect cheating
+
+
+
+
+
+To access the code
+1. Clone the project 
+2. Create a data directory in the same folder to save the captured images
+Note: The requirement is that dataset of minimum one user should be present in the data directory. So for that run the build dataset file and save the dataset of first user
+3. Run the homepage.py file
+4. Click on the IP address generated
+5. Enter user id and click on start capture button to collect rest of the datasets
+6. Enter /exam after the address to access the face recognition page
+7. Enter /proctor after the address to access the Head position estimation page
+8. Click 'q' or 'esc' to quit the camera
